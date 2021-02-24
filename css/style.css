@@ -1,0 +1,141 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-transform: uppercase;
+    font-family: "Noto Sana";
+}
+
+body {
+    width: 1600px;
+    height: 1600px;
+    background-color: #e2e7ec;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.intro {
+    width: 1140px;
+    height: 1120px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+}
+
+.conteiner1 {
+    -ms-flex-preferred-size: 360px;
+        flex-basis: 360px;
+    height: 540px;
+    margin: 10px;
+    background-color: #ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack:end;
+        -ms-flex-pack:end;
+            justify-content:flex-end;
+    padding-bottom: 30px;
+}
+
+.conteiner2 {
+    -ms-flex-preferred-size: 360px;
+        flex-basis: 360px;
+    height: 540px;
+    margin: 10px;
+    background-color: #ffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack:start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+}
+
+.conteiner1:first-child {
+    -ms-flex-preferred-size: 740px;
+        flex-basis: 740px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), to(black)), url(../img/avto_red.jpg);
+    background-image: -o-linear-gradient(transparent, black), url(../img/avto_red.jpg);
+    background-image: linear-gradient(transparent, black), url(../img/avto_red.jpg);
+}
+
+.data{
+    opacity: 0.5;
+    color: #818181;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.33px;
+    margin-left: 30px;
+    margin-top: 28px;
+    margin-bottom: 21px;
+}
+
+.text1 {
+    width: 433px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.75px;
+    margin-left: 30px;
+    margin-top: 20px;  
+}
+
+.text {
+    color: #1d1d1d;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 0.55px;
+    margin-left: 30px;
+}
+
+.photo_man {
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.invisible_data {
+    visibility: hidden;
+}
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #99a5b0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 13px;
+    margin-top: 79px;
+}
+
+footer p {
+    margin-left: 13px;
+}
